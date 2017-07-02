@@ -1,0 +1,28 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "Helps scrap articles from a website and gives the option for readers to put notes about the articles",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amer-Saleh/mongoScraper.git"
+  },
+  "author": "Amer Saleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amer-Saleh/mongoScraper/issues"
+  },
+  "homepage": "https://github.com/Amer-Saleh/mongoScraper#readme"
+}
